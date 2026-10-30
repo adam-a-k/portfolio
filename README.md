@@ -14,7 +14,7 @@ Built a Python backend hosted on Azure, integrating HubSpot API for a chatbot us
 - **Code:** Private (employer confidentiality), happy to discuss in interview.
 - **High-Level Overview**:
   ```mermaid
-flowchart LR
+    flowchart LR
     Customer[Customer] --> Widget[Chat Widget]
     Widget --> Backend[Chatbot Service]
     Backend --> Intent{Classify Intent}
@@ -27,7 +27,7 @@ flowchart LR
     Guided --> Reply
     Reply --> Widget
     Escalate --> Staff[Staff Notified]
-```
+  ```
 
 #https://www.madesmarter.uk/resources/case-study-bradbury-tracks/
 "Bringing in somebody with specialist AI knowledge gave us fresh thinking and helped us turn ideas into something practical for the business. The support has been invaluable, both technically and strategically.” - Kris, CEO

@@ -29,7 +29,7 @@ Interactive policy evaluation tool applying causal inference (OLS, mixed-effects
   through methodology and findings in interview.
 
 
-### 4. Data Economy Group Project (team of 4) — MSc Artificial Intelligence, University of Southampton
+### 4. Data Economy Group Project (team of 4) - MSc Artificial Intelligence
 **Topic: Data Integration and Warehousing**
 
 End-to-end financial data pipeline ingesting live market data (stocks, forex, crypto, news) via multiple APIs, with ETL transformations and a PostgreSQL warehouse, surfaced through a React/Flask dashboard with role-based access control. My role: designed the PostgreSQL schema and data-loading layer, taking cleaned data from the ETL stage through to query-ready storage.

@@ -1,4 +1,4 @@
-# Projects
+## Projects
 
 ### 1. World Cup 2026 Predictor
 Probabilistic forecasting model for the 2026 World Cup using international 

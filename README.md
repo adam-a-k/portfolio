@@ -19,21 +19,7 @@ Built a Python backend hosted on Azure, integrating HubSpot API for a chatbot us
 
 - **Code:** Private (employer confidentiality), happy to discuss in interview.
 - **High-Level Overview**:
-  ```mermaid
-    flowchart LR
-    Customer[Customer] --> Widget[Chat Widget]
-    Widget --> Backend[Chatbot Service]
-    Backend --> Intent{Classify Intent}
-    Intent -->|General question| RAG[Knowledge Base Search]
-    Intent -->|Order status| Order[Order Lookup]
-    Intent -->|Product search| Guided[Guided Recommendation]
-    Intent -->|Low confidence / requested| Escalate[Staff Escalation]
-    RAG --> Reply[Generate Reply]
-    Order --> Reply
-    Guided --> Reply
-    Reply --> Widget
-    Escalate --> Staff[Staff Notified]
-  ```
+ ![Chatbot architecture overview](docs/chatbot-architecture.svg)
 
 
 ### 3. Research Project - MSc Artificial Intelligence
